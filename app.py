@@ -7,7 +7,7 @@ from abcp_classification_function import classify_peptide
 # Page config
 # -------------------------------
 st.set_page_config(
-    page_title="SmartABCPeptide",
+    page_title="SmartABCP",
     layout="centered"
 )
 
@@ -103,7 +103,7 @@ def calculate_charge(peptide):
 # HEADER
 # ======================================================
 st.markdown('<div class="main-title">SmartABCP</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Anti-Breast Cancer Peptide Classification & Design Platform</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Machine Learning-Assisted Design and Prediction of Anti-Breast Cancer Peptides</div>', unsafe_allow_html=True)
 
 # ======================================================
 # SECTION 1: CLASSIFICATION
@@ -257,7 +257,7 @@ Bose Institute, Kolkata
 
 <h3>Citation</h3>
 <p>
-Tripathi et al. (2026). SmartABCPeptide: ML-based ACP prediction tool.
+Tripathi et al. (2026). SmartABCP: Machine Learning- Assisted Design and Prediction of Anti-Breast Cancer Peptides
 </p>
 
 </div>
@@ -271,6 +271,6 @@ st.markdown("""
 <div class="footer">
 Developed by <b>System Biology Laboratory</b><br>
 Indian Institute of Information Technology Allahabad<br><br>
-© 2026 SmartABCPeptide | All Rights Reserved
+© 2026 SmartABCP | All Rights Reserved
 </div>
 """, unsafe_allow_html=True)
