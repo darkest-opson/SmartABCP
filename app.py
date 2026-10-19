@@ -102,7 +102,7 @@ def calculate_charge(peptide):
 # ======================================================
 # HEADER
 # ======================================================
-st.markdown('<div class="main-title">SmartABCPeptide</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">SmartABCP</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Anti-Breast Cancer Peptide Classification & Design Platform</div>', unsafe_allow_html=True)
 
 # ======================================================
